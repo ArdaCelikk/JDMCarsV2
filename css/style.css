@@ -6,6 +6,7 @@
 
 .container{
     width: 100%;
+    
     background-image: url("/img/carbon.png");
     display: flex;
     align-items: center;
@@ -14,12 +15,12 @@
 
 .mainBox{
     background-color: #354545;
-    display: flex;
-    flex-direction:column;
     border-radius: 15px;
     gap: 30px;
+    width: 60%;
     margin: 200px 0;
     padding-bottom: 20px;
+
 }
 
 .ustYazi{
@@ -30,29 +31,28 @@
 }
 
 .mainBox2{
-    align-self: flex-end;
+    
     border-radius: 15px;
-    flex-flow: wrap;
-    gap: 20px;
-}
-
-.line{
+    gap: 5px;
     flex-flow: wrap;
     display: flex;
-    gap: 5px;
-    padding: 0 15px;
+    align-items: center;
     justify-content: center;
 }
 
-.photo{
+.photo{ 
     border-radius: 15px;
 }
 
 .photo img{
     transition-duration: 0.3s;
     border-radius: 15px;
+
 }
 
 .photo img:hover{
     filter: brightness(120%);
 }
+
+
+
