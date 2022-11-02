@@ -6,7 +6,6 @@
 
 .container{
     width: 100%;
-    
     background-image: url("/img/carbon.png");
     display: flex;
     align-items: center;
@@ -16,8 +15,8 @@
 .mainBox{
     background-color: #354545;
     border-radius: 15px;
+    width:100vmin;
     gap: 30px;
-    width: 60%;
     margin: 200px 0;
     padding-bottom: 20px;
 
