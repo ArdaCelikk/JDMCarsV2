@@ -6,7 +6,6 @@
 
 .container{
     width: 100%;
-    background-image: url("/img/carbon.png");
     display: flex;
     align-items: center;
     justify-content: center;
